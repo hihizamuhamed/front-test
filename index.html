@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список пользователей</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список пользователей</h1>
+        <button id="refreshBtn">Обновить</button>
+        <input type="text" id="searchInput" placeholder="Поиск по имени или email">
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Емайл</th>
+                    <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody id="userList">
+            
+            </tbody>            
+        </table>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
